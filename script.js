@@ -12,7 +12,7 @@ const questions = [
         question : "Do I prefer coffee or tea ?",
         answers: [
             {text : "coffee", correct: false},
-            {text : "tea", correct: true},
+            {text : "tea", correct: true}
         ]
     },
     {
