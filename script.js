@@ -1,40 +1,45 @@
 const questions = [
     {
-        question : "which is the largest animal in the world ?",
+        question : "what is my favourite food ?",
         answers: [
-            {text : "Shark", correct: false},
-            {text : "blue whale", correct: true},
-            {text : "elephant", correct: false},
-            {text : "giraffe", correct: false}
+            {text : "burger", correct: false},
+            {text : "water-balls", correct: true},
+            {text : "pavbhaji", correct: false},
+            {text : "dosa", correct: false}
         ]
     },
     {
-        question : "which is the largest animal in the world ?",
+        question : "Do I prefer coffee or tea ?",
         answers: [
-            {text : "Shark", correct: false},
-            {text : "blue whale", correct: true},
-            {text : "elephant", correct: false},
-            {text : "giraffe", correct: false}
+            {text : "coffee", correct: false},
+            {text : "tea", correct: true},
         ]
     },
     {
-        question : "which is the largest animal in the world ?",
+        question : "Which is my favourite subject in school? ?",
         answers: [
-            {text : "Shark", correct: false},
-            {text : "blue whale", correct: true},
-            {text : "elephant", correct: false},
-            {text : "giraffe", correct: false}
+            {text : "english", correct: false},
+            {text : "hindi", correct: true},
+            {text : "maths", correct: false},
+            {text : "social science", correct: false}
         ]
     },
     {
-        question : "which is the largest animal in the world ?",
+        question : "what is my birthday date ?",
         answers: [
-            {text : "Shark", correct: false},
-            {text : "blue whale", correct: true},
-            {text : "elephant", correct: false},
-            {text : "giraffe", correct: false}
+            {text : "15/05/2001", correct: true},
+            {text : "30/11/2000", correct: false},
+            {text : "10/02/1998", correct: false},
+            {text : "03/08/2000", correct: false}
         ]
-    }
+    },
+    {
+        question : "do you think i am a friendly person?",
+        answers: [
+            {text : "yes", correct: true},
+            {text : "no", correct: false}
+        ]
+    },
 
 ];
 const questionElement = document.getElementById("question");
