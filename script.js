@@ -40,6 +40,13 @@ const questions = [
             {text : "no", correct: false}
         ]
     },
+    {
+        question : "do you think i am a introvert?",
+        answers: [
+            {text : "yes", correct: true},
+            {text : "no", correct: false}
+        ]
+    }
 
 ];
 const questionElement = document.getElementById("question");
